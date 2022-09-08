@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Arham",
+        "role": "flex",
+        "style": "passive-aggressive"
+    },
+    {
+        "name": "Sheraz",
+        "role": "initiator/sentinel",
+        "style": "agressive"
+    },
+    {
+        "name": "Momin",
+        "role": "duelist",
+        "style": "agressive"
+    }
+]
