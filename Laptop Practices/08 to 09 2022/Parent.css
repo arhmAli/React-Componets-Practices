@@ -1,0 +1,9 @@
+.active {
+    color: red;
+    cursor: pointer;
+}
+
+.not-active {
+    color: purple;
+    cursor: pointer;
+}
