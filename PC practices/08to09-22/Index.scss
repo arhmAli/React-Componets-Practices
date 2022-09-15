@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 98vh;
+    width: 100vw;
+background: linear-gradient(41deg, rgba(255,214,0,1) 22%, rgba(35,112,252,1) 49%, rgba(248,252,70,1) 70%);
+& h1{
+    display: inline-block;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #FFFFFF;
+    animation: leftToRight 1s linear;
+}
+}
+@keyframes leftToRight{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
