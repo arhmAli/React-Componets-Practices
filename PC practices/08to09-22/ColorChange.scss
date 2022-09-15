@@ -1,0 +1,40 @@
+.btn{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 5px;  
+    border: 1px solid blue;  
+    margin: 102% 35%;
+    width: 100px;
+    // animation: mover 0.8s linear;
+    &:hover{
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        cursor: pointer;
+    }
+}
+.main-container{
+    margin: 10% auto;
+    position: relative;
+    z-index: 100;
+    box-shadow: 12px 15px 30px 4px rgba(153,79,79,1);
+-webkit-box-shadow: 12px 15px 30px 4px rgba(153,79,79,1);
+-moz-box-shadow: 12px 15px 30px 4px rgba(153,79,79,1);
+animation: mover 1s linear;
+}
+@keyframes mover{
+    0%{
+        transform: translateY(500px);
+    }
+    50%{
+        
+        transform: translateY(300px);
+    }
+    70%{
+        
+        transform: translateY(200px);
+    }
+    100%{
+        
+        transform: translateY(0);
+    }
+}
