@@ -4,11 +4,6 @@ import "./styles.css";
 export default function App() {
   const [count, setCount] = useState(1)
   const [dec,setdec]=useState(1)
-  // function handleChange() {
-  //   setCount((prevCount) => {
-  //     return { ...prevCount, count: prevCount + 1 };
-  //   });
-  // }
   useEffect(()=>{
     dec===0?alert("YOU Lose"):null
   },[dec])
