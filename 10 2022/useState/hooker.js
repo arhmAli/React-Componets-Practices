@@ -4,7 +4,7 @@ export default function App() {
   const [count, setCount] = useState(1)
   const [dec,setdec]=useState(1)
   useEffect(()=>{
-    dec===0?alert("YOU Lose"):null
+    dec===0?alert("You Lose ! Loser hahahahah"):null
   },[dec])
   return (
     <div className="App">
