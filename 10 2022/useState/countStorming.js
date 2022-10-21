@@ -9,6 +9,7 @@ const App=()=> {
     setCount((prevCount) => {
       return { ...prevCount, counter: prevCount.counter + 3 };
     });
+    console.log(counter)
   }
   return (
     <div className="App">
