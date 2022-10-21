@@ -3,7 +3,7 @@ import { useState } from "react";
 const SomePract = () => {
     let [name, setName] = useState({
         firstName: "something",
-        lastName: "somethingElse"
+        lastName: "somethingelse"
     });
     return (
         <>
