@@ -8,12 +8,6 @@ class Form extends Component {
         // this.onSubmit = this.onSubmit.bind(this)
         this.onChange = this.onChange.bind(this)
     }
-    // onSubmit(e) {
-    //     e.preventDefault();
-    //     this.setState({
-    //         [e.target.name]: e.target.value
-    //     })
-    // }
     onChange(e) {
         this.setState({ [e.target.name]: e.target.value })
     }
