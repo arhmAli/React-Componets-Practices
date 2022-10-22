@@ -11,7 +11,6 @@ export default function App() {
   function randomizer() {
     console.log(here);
     setDraw((draw.value = here));
-    console.log(draw.value);
   }
   return (
     <div className="App">
