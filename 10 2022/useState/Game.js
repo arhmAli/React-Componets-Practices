@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./styles.css";
 export default function App() {
   const [draw, setDraw] = useState(0, {
     value: [1]
