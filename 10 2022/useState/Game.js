@@ -3,7 +3,7 @@ export default function App() {
   const [draw, setDraw] = useState(0, {
     value: [1]
   });
-  let rand = ["rock", "paper", "scissors", "Shoot"];
+  let rand = ["rock", "paper", "scissors"];
   let here = Math.floor(Math.random() * rand.length);
   let here_1 = Math.floor(Math.random() * rand.length);
 
