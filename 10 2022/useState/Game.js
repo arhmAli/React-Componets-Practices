@@ -1,5 +1,5 @@
 import { useState } from "react";
-const App=()=> {
+const Game=()=> {
   const [draw, setDraw] = useState(0, {
     value: [1]
   });
