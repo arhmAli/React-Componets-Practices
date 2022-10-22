@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function App() {
+const App=()=> {
   const [draw, setDraw] = useState(0, {
     value: [1]
   });
@@ -19,3 +19,4 @@ export default function App() {
     </div>
   );
 }
+export default Game
