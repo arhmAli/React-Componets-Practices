@@ -12,7 +12,7 @@ const SomePract = () => {
                 lastName: "updateTwos"
             })}>
                 {name.firstName + name.lastName}
-
+                  console.log(firstName)
             </div>
         </>
     );
