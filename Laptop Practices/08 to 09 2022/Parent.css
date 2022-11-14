@@ -2,7 +2,12 @@
     color: red;
     cursor: pointer;
 }
-
+.active:hover{
+    transition:0.5s ease-in;
+    height:200px;
+    width:150px;
+    transform:scale(1.2);
+}
 .not-active {
     color: purple;
     cursor: pointer;
