@@ -1,0 +1,22 @@
+div {
+  height: 30%;
+  width: 40%;
+  background-color: aliceblue;
+  display: flex;
+  margin: 10px;
+  margin-left: 30%;
+}
+div > h2 {
+  display: block;
+  position: absolute;
+  color: aqua;
+  padding-bottom: 40px;
+}
+form {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.buttons {
+  margin-top: 20px;
+  margin-right: 0.5px;
+}
