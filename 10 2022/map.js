@@ -9,3 +9,5 @@ function digitize(n) {
   
   return here
   }
+//The above example takes in values of some numbers say 12345 and turns it into strings then reverse the order then maps over the strings and making them numbers and 
+//array forming along the way
